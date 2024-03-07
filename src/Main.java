@@ -21,33 +21,43 @@ public class Main {
 
             System.out.println("Qual o nome do album: ");
             nomeMusica = terminal.nextLine();
+            System.out.println("Clique enter para continuar...");
             terminal.nextLine();
 
             System.out.println("Qual a duracao: ");
             duracao = terminal.nextDouble();
+            System.out.println("Clique enter para continuar...");
             terminal.nextLine();
 
             System.out.println("Qual o nome do compositor: ");
             nomeCompositor = terminal.nextLine();
+            System.out.println("Clique enter para continuar...");
             terminal.nextLine();
 
             System.out.println("Qual a idade dele: ");
             idade = terminal.nextInt();
+            System.out.println("Clique enter para continuar...");
             terminal.nextLine();
 
             playlist[i] = new Musica(nomeMusica, duracao, new Pessoa(nomeCompositor, idade));
         }
 
-
+        System.out.println("=-=-=-=-=-=-=[Album]=-=-=-=-=-=-=");
 
         System.out.println("Qual seu genero: ");
         String genero = terminal.nextLine();
+        System.out.println("Clique enter para continuar...");
+        terminal.nextLine();
 
         System.out.println("Quando foi lancado: ");
         int ano = terminal.nextInt();
+        System.out.println("Clique enter para continuar...");
+        terminal.nextLine();
 
         System.out.println("Qual o nome do album: ");
         String nomeAlbum = terminal.nextLine();
+        System.out.println("Clique enter para continuar...");
+        terminal.nextLine();
 
         System.out.println("Qual o nome do artista autor: ");
         String nomeArtistaAutor = terminal.nextLine();
